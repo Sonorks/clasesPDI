@@ -1,3 +1,4 @@
+
 clear all; close all; clc
 a=imread('nal.jpg');
 b=imread('kratos.jpg');
