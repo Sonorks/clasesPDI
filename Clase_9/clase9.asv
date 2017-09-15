@@ -1,0 +1,7 @@
+clear all, close all, clc
+a=imread('casa.bmp');
+for i=1:10:360
+    b=imrotate(a,i); %%bi
+    figure(1); imshow(b);
+    pause
+end
